@@ -1,0 +1,23 @@
+{
+  "name": "eventhub-backend-js",
+  "version": "0.0.1",
+  "description": "RESTful CRUD API using NodeJS for Eventhub application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Puzovoz/eventhub-backend-js.git"
+  },
+  "author": "Ilya Savenkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Puzovoz/eventhub-backend-js/issues"
+  },
+  "dependencies": {
+    "body-parser": "1.9.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.1"
+  }
+}
